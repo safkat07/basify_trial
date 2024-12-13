@@ -10,7 +10,7 @@ const ChartCard = () => {
     datasets: [
       {
         data: [22, 44, 11, 23], 
-        backgroundColor: ["#3b82f6", "#f87171", "#fbbf24", "#a3e635"], // Section colors
+        backgroundColor: ["#3b82f6", "#f87171", "#fbbf24", "#a3e635"], 
         hoverOffset: 4,
       },
     ],
