@@ -26,7 +26,7 @@ const ContactList = () => {
     {
       name: "XYZ",
       phone: "99888XXXX",
-      image: "https://via.placeholder.com/48/000000/FFFFFF?text=AB", // Replace with actual image
+      image: "https://via.placeholder.com/48/000000/FFFFFF?text=AB",
     },
     {
       name: "XYZ",
