@@ -29,7 +29,7 @@ const revenueData = [
 const productCardsData = [
   { title: "Chart", content: <ChartCard /> },
   { title: "Courses", content: <CoursesList /> },
-  { title: "Contact", content: <ContactList /> },
+  { title: "Contact Us", content: <ContactList /> },
 ];
 
 function App() {
@@ -59,7 +59,7 @@ function App() {
             ))}
           </div>
 
-          <div className="grid grid-cols-3 w-3/4 mx-auto h-[55%] pt-5 gap-x-10">
+          <div className="grid grid-cols-3 w-3/4  mx-auto h-[55%] pt-5 gap-x-10">
             {productCardsData.map((card, index) => (
               <ProductCard key={index} title={card.title}>
                 {card.content}

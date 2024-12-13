@@ -2,7 +2,7 @@
 
 const ContactCard = ({ name, phone, image }) => {
   return (
-    <div className="flex items-center justify-between  p-4 rounded-md shadow-sm mb-4">
+    <div className="flex items-center justify-between  px-4 backdrop-blur-3xl py-2 rounded-md shadow-sm mb-4">
       <div className="flex items-center space-x-4">
         <img
           src={image}
@@ -14,7 +14,7 @@ const ContactCard = ({ name, phone, image }) => {
           <p className="text-lg text-white0">{phone}</p>
         </div>
       </div>
-      <button className="px-4 py-1 text-sm font-medium text-blue-600 border border-blue-600 rounded-full bg-white hover:bg-neutral-100">
+      <button className="px-4 py-1 text-sm font-medium text-blue-600 border rounded-full bg-white hover:bg-neutral-100">
         View
       </button>
     </div>
@@ -51,8 +51,7 @@ const ContactList = () => {
   ];
 
   return (
-    <div className=" p-6 rounded-lg text-white max-w-sm mx-auto">
-      <h2 className="text-lg font-bold mb-6 text-center">Contact Us</h2>
+    <div className="  rounded-lg text-white max-w-sm mx-auto">
       {contacts.map((contact, index) => (
         <ContactCard
           key={index}
